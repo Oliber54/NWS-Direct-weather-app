@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Weather App</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+    background:#f5f5f5;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:12px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.15);
+}
+
+.hour{
+    padding:6px;
+}
+
+.day{
+    padding:8px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>🌦 Weather App</h1>
+
+<div id="current" class="card">
+Loading...
+</div>
+
+<h2>⏰ Hourly</h2>
+<div id="hourly" class="card"></div>
+
+<h2>📅 Daily</h2>
+<div id="daily" class="card"></div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
