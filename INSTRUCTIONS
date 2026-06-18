@@ -1,0 +1,33 @@
+Usage instructions
+
+1: install the files app.py, app.js, index.html, and requirements.txt
+
+2: create a new folder named "weather-app"
+In your phone's storage
+
+3: create 2 folders inside named "static" and "templates"
+
+4: put app.py and requirements.txt in the folder, not in static or templates
+
+5: put app.js in the static folder
+
+6: put index.html in the templates folder
+
+7: install the mobile app termux
+
+8:open the app and run the commands in this order:
+pkg install python
+pip install flask
+pip install requests
+
+9: then type and run the command: cd storage
+
+10: then type and run cd shared
+
+11: then type and run cd weather-app
+
+12: then type and run python app.py
+
+13: termux should give you an IP address, don't use 127.0.0.1:5000 that one doesn't work, use the last one, type it into chrome, accept the warning (it's not https) (I cannot access your data because it is running on your Wi-Fi IP) accept location share and bam!
+
+Then it should run fine, if it doesn't run correctly, DM me on discord at @oliber5344
