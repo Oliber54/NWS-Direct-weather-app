@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 HEADERS = {
-    "User-Agent": "WeatherApp (your_email@example.com)"
+    "User-Agent": "NWS-Direct-Weather-App ("sunshineisacoolguy@outlook.com")
 }
 
 @app.route("/")
@@ -37,4 +37,4 @@ if __name__ == "__main__":
     host="0.0.0.0",
     port=5000,
     ssl_context=("cert.pem", "key.pem")
-      
+    )
